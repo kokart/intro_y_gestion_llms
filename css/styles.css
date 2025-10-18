@@ -1,0 +1,30 @@
+/* Estilos personalizados */
+:root{
+  --primary: #0d6efd;
+  --muted: #6c757d;
+}
+
+/* Encabezado con logo AEPD */
+.logo-aepd {
+  object-fit: contain;
+  border-radius: 6px;
+  background: transparent;
+}
+
+/* Foto de perfil */
+.profile-photo {
+  border: 4px solid rgba(13,110,253,0.08);
+}
+
+/* Ajustes responsivos y espaciado */
+@media (max-width: 767.98px) {
+  .navbar-brand .fw-bold { font-size: 1rem; }
+  .navbar-brand small { display: none; }
+}
+
+/* Estética de tarjetas y progreso */
+.card { border: 0; }
+.progress { background: #e9ecef; }
+
+/* Pequeños toques */
+footer a { text-decoration: none; }
